@@ -1,0 +1,46 @@
+.footer_info {
+    position: relative;
+    background-image: url('/img/footer-bg.jpg');
+    background-size: cover;
+    .container {
+        padding: 50px;
+        display: flex;
+        gap: 30px;
+        color: white;
+        
+    }
+    .imgBg {
+        display: flex;
+        position: absolute;
+        right: 350px;
+        top: -50px;
+        z-index: 1;
+    }
+}
+.footer_profiles {
+    position: relative;
+    z-index: 2;
+    background-color: #2D2A22;
+    padding: 40px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+    }
+}
+.follow {
+    font-weight: bold;
+    color: #0077F8;
+}
+.sing-up {
+    padding: 10px;
+    border: 2px solid #0077F8;
+    color: white;
+}
