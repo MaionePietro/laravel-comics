@@ -1,6 +1,6 @@
 <header class="container header_list">
     <div class="logo">
-        <img src="{{ Vite::asset('resource/img/dc-logo.png') }}" alt="">
+        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
     </div>
     <div class="list">
         <ul>
