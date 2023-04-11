@@ -1,6 +1,17 @@
-
 @extends('layout.app')
 @section('content')
+<section class="main_here">
+    <div class="container grid-container">
+        @foreach ($comics as $comic)
+        <div class="card">
+            <div class="card-img">
+                <img src="{{ $comic['thumb']}}" alt="">
+            </div>
+            <span class="tex">{{ $comic['series'] }}</span>
+        </div>
+        @endforeach
+    </div>
+</section>
 <section class="main_cards">
     <ul class="container cards">
         <li>
