@@ -227,7 +227,10 @@ Route::get('/', function () {
             ],
         ],
     ];
+    $data = [
+        'comics' => $comics
+    ];
     
-    return view('welcome', $comics);
+    return view('welcome', $data);
 });
 
